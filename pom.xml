@@ -25,6 +25,7 @@
     <modules>
         <module>dubbo-zk-provider</module>
         <module>dubbo-zk-consumer</module>
+        <module>dubbo-api</module>
     </modules>
 
     <build>

@@ -1,8 +1,10 @@
 package com.wlq.learning.provider.service.impl;
 
-import com.wlq.learning.provider.service.DefaultDemoService;
+import com.wlq.learning.api.DefaultDemoService;
 import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Value;
+
+import java.util.Date;
 
 /**
  * @author wuliuqing
@@ -16,6 +18,7 @@ public class DefaultDemoServiceImpl implements DefaultDemoService {
 
     @Override
     public String sayHello(String name) {
+        System.out.println("====" + new Date());
         return String.format("[%s] : Hello, %s", serviceName, name);
     }
 }

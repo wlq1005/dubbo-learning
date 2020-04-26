@@ -1,4 +1,4 @@
-package com.wlq.learning.provider.service;
+package com.wlq.learning.api;
 
 /**
  * @author wuliuqing
